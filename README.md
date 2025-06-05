@@ -1,6 +1,6 @@
 # 🔍 Crime Rate Predictor - Unlock Safety: Reduce Crime Rate Together
 
-![Crime Rate Prediction Banner](https://github.com/AbhayRautela213/Crime-Rate-Prediction/assets/99676980/4cc6a668-1af7-485f-88e1-94892dd4e75d)
+![Crime Rate Prediction Banner](https://github.com/karthikprogr/Crime-Rate-Predictor/blob/main/static/images/Screenshot%202025-06-05%20115011.png)
 
 Crime Rate Predictor is a machine learning-based web application that forecasts crime trends across 19 Indian metropolitan cities. The project aims to help law enforcement agencies allocate resources effectively and enhance public safety through data-driven predictions.
 
