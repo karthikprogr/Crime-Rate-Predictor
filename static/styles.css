@@ -1,0 +1,215 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    background: radial-gradient(circle, #0d0d0d 30%, #1a1a2e 90%); /* Deep space background */
+    color: #ffffff; /* White text for contrast */
+    overflow-x: hidden;
+}
+
+/* Space Glow Effects */
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; }
+    50% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff; }
+    100% { text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; }
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #000428, #004e92); /* Cosmic gradient */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: solid 3px #ff00ff; /* Neon pink border */
+}
+
+/* Title */
+.title {
+    font-size: 70px;
+    font-style: italic;
+    margin: 0;
+    padding-top: 20px;
+    animation: glow 2s infinite alternate;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 25px;
+    font-style: oblique;
+    color: #d1d8e0;
+    text-align: center;
+}
+
+/* Section Styling */
+.section1 {
+    border-bottom: 2px solid #ff00ff;
+    min-height: 500px;
+}
+
+/* Form Table */
+table.table1 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+table.table2 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0); /* Semi-transparent */
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+
+/* Dropdown Selection */
+select {
+    padding: 10px;
+    width: 250px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    border: solid 2px #ff00ff;
+    border-radius: 10px;
+    background-color: #222244;
+    color: #ffffff;
+}
+
+/* Spacey Buttons */
+.button {
+    margin: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 900;
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    color: #0e1a2b;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 0 15px #ff00ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #00ffff, #ff00ff);
+    color: #ffffff;
+    border: solid 2px #ff00ff;
+    box-shadow: 0 0 30px #00ffff;
+    transform: scale(1.1);
+}
+
+/* Results Table */
+table.table3 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid #ff00ff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+td.result {
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: #ff00ff;
+}
+
+#introduction {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #ffffff;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+#developer {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#linkedin, #github {
+    padding: 10px;
+}
+
+/* Floating Stars */
+@keyframes stars {
+    0% { transform: translateY(0px); opacity: 0.8; }
+    50% { transform: translateY(-20px); opacity: 1; }
+    100% { transform: translateY(0px); opacity: 0.8; }
+}
+
+.stars {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ffffff;
+    animation: stars 3s infinite alternate ease-in-out;
+}
+
+/* Random Star Placement */
+.stars:nth-child(1) { top: 10%; left: 15%; animation-duration: 3s; }
+.stars:nth-child(2) { top: 20%; left: 45%; animation-duration: 4s; }
+.stars:nth-child(3) { top: 50%; left: 70%; animation-duration: 2.5s; }
+.stars:nth-child(4) { top: 80%; left: 30%; animation-duration: 5s; }
+.stars:nth-child(5) { top: 40%; left: 85%; animation-duration: 3.5s; }
+
+.button2{
+    text-align: center;
+    margin-top: 45px;
+    padding-bottom: 3.5%;
+}
+
+
+
+.graph-image {
+    display: block;
+    margin: auto;
+    border: 3px solid #ff00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff00ff;
+    width: 50%;
+}
+
