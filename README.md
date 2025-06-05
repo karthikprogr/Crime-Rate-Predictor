@@ -29,7 +29,7 @@ Crime Rate Predictor is a machine learning-based web application that forecasts 
 
 ```bash
 # Clone the repository
-git clone https://github.com/AbhayRautela213/Crime-Rate-Prediction.git
+git clone https://github.com/karthikprogr/Crime-Rate-Predictor.git
 cd Crime-Rate-Prediction
 
 # Install dependencies
@@ -93,8 +93,7 @@ To contribute:
 
 For any queries or suggestions, feel free to reach out:
 
-**Email**: [abhayrautela213@gmail.com](mailto:abhayrautela213@gmail.com)
-
+**Email**: [seelamkarthik2006@gmail.com](mailto:seelamkarthik2006@gmail.com)
 ---
 
 > 🔐 Let’s harness AI to create safer communities by understanding and predicting crime before it happens.
